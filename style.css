@@ -278,6 +278,17 @@ video.fill { background: #000; }
 
 .split-media.video { aspect-ratio: 16 / 9; }
 
+.doc-link { margin-top: 26px; }
+.doc-link a {
+  display: inline-block;
+  padding: 12px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background 0.25s, color 0.25s;
+}
+.doc-link a:hover { background: #fff; color: #000; }
+
 .infra { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .infra-item { padding: 34px 28px 30px; }
 .infra-item + .infra-item { border-left: 1px solid var(--line); }
