@@ -115,6 +115,8 @@ p { margin: 0 0 1.1em; }
 }
 .intro h1 { font-size: clamp(3rem, 6.2vw, 5.4rem); letter-spacing: -0.04em; line-height: 0.98; }
 .intro-sub { margin: 28px 0 38px; max-width: 560px; font-size: clamp(1.05rem, 1.4vw, 1.2rem); color: var(--muted); }
+.intro-sub p { margin: 0 0 0.75em; }
+.intro-sub p:last-child { margin-bottom: 0; }
 .intro-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .intro-actions .btn-outline { margin-top: 0; }
 .btn-solid {
